@@ -1,0 +1,43 @@
+.Weather-card{
+    position:absolute;
+    top:20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:25%;
+    height:40%;
+    background-color: aquamarine;
+}
+.Weather-card .Weather-logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+.Weather-card .Weather-logo img{
+    width:200px;
+    height:200px;
+}
+.Weather-card .search-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    left:25%;
+    right:25%;
+    width:50%;
+    margin-top: 10px;
+    padding: 4px;
+    height:30px;
+    overflow-y: hidden;
+
+}
+.clear{
+
+    background-color: aqua;
+}
+.rain{
+    background-color: aquamarine;
+}
