@@ -124,9 +124,9 @@ const Weather = () => {
                 {
                     state && state.main &&
                     <div className='weather-main'>
-                        <div>{state.main.temp}
+                        <div>Temperature:{state.main.temp}
                             </div>
-                        <div className='humidity'>
+                        <div className='humidity'>Humidity:
                             {state.main.humidity}
                         </div>
                     </div>

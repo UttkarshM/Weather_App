@@ -1,4 +1,5 @@
 .Weather-card{
+    overflow: hidden;
     position:absolute;
     top:20%;
     display:flex;
@@ -6,7 +7,7 @@
     justify-content: center;
     width:25%;
     height:40%;
-    background-color: aquamarine;
+    background-color: rgb(238, 238, 238);
 }
 .Weather-card .Weather-logo{
     display:flex;
@@ -35,9 +36,19 @@
 
 }
 .clear{
-
     background-color: aqua;
 }
 .rain{
     background-color: aquamarine;
+}
+.weather-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: 20%;;
+    width:100%;
+}
+.humidity{
+    
 }
